@@ -1,6 +1,6 @@
 {
   "name": "tap-eater",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "macbre <maciej.brencz@gmail.com> (http://macbre.net)",
   "description": "Consumes TAP file and sends an email in case of failed tests",
   "repository": {
