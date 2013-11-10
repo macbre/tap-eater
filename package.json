@@ -1,0 +1,36 @@
+{
+  "name": "tap-eater",
+  "version": "0.0.1",
+  "author": "macbre <maciej.brencz@gmail.com> (http://macbre.net)",
+  "description": "Consumes TAP file and sends an email in case of failed tests",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macbre/tap-eater.git"
+  },
+  "keywords": [
+    "tap",
+    "consumer"
+  ],
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "ansicolors": "0.2",
+    "commander": "2.0",
+    "email": ">=0.2.0",
+    "tap": ">=0.4.0",
+    "yamlish": ">=0.0.5"
+  },
+  "devDependencies": [
+    "jshint"
+  ],
+  "bin": "bin/tap-eater.js",
+  "preferGlobal": true,
+  "scripts": {
+    "lint": "jshint lib/* bin/*"
+  },
+  "jshintConfig": {
+    "node": true
+  }
+}
