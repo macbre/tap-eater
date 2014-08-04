@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "ansicolors": "~0.3.2",
-    "commander": "~2.2.0",
+    "commander": "~2.3.0",
     "email": ">=0.2.0",
     "tap": ">=0.4.0",
     "yamlish": ">=0.0.5"
