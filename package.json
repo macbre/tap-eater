@@ -20,7 +20,8 @@
     "commander": "~2.3.0",
     "email": ">=0.2.0",
     "tap": ">=0.4.0",
-    "yamlish": ">=0.0.5"
+    "yamlish": ">=0.0.5",
+    "snyk": "^1.192.3"
   },
   "devDependencies": [
     "jshint"
@@ -28,9 +29,12 @@
   "bin": "bin/tap-eater.js",
   "preferGlobal": true,
   "scripts": {
-    "lint": "jshint lib/* bin/*"
+    "lint": "jshint lib/* bin/*",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jshintConfig": {
     "node": true
-  }
+  },
+  "snyk": true
 }
